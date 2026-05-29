@@ -90,25 +90,3 @@ docker compose down -v
 ```
 
 `-v` удаляет Docker volume с данными ClickHouse. После этой команды таблицу и данные нужно будет создавать заново.
-
-## Команды для загрузки в GitHub
-
-Если репозиторий еще не инициализирован локально:
-
-```bash
-git init
-git branch -M main
-git remote add origin https://github.com/Xeelie/ClickHouse_HW.git
-git add .
-git commit -m "Add ClickHouse homework"
-git push -u origin main
-```
-
-Если репозиторий уже инициализирован:
-
-```bash
-git status
-git add .
-git commit -m "Add ClickHouse homework"
-git push
-```
